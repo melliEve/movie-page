@@ -4,7 +4,7 @@ import Like from './common/like';
 
 class MoviesTable extends Component {
   render() {
-    const { movies, onDelete, onLike, onSort } = props;
+    const { movies, onDelete, onLike, onSort }= this.props;
 
     return (
       <table className="table">
